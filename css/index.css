@@ -658,8 +658,8 @@ body{
 
 #page10 .photo .photo-pic {
 	background-color: white;
-	width: 29%;
-	height: 20%;
+	width: 30%;
+	height: 22%;
 	position: absolute;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
@@ -667,7 +667,7 @@ body{
 	left: 0;
 	right: 0;
 	margin: auto;
-	top: 31%;
+	top: 34%;
 }
 
 #page10 .photo-btm {
