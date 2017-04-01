@@ -446,9 +446,9 @@ body{
 
 #page5 .content .content-loading {
 	position: absolute;
-	width: 40%;
-	height: 21%;
-	top: 55%;
+	width: 60%;
+	height: 40%;
+	top: 48%;
 	left: 0;
 	right: 0;
 	margin: auto;
@@ -456,8 +456,13 @@ body{
 
 #page5 .content .content-loading1 {
 	position: absolute;
-	height: 100%;
-	animation: ;
+	width: 60%;
+	height: 60%;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	margin: auto;
 	-webkit-animation: loading 20s linear infinite;
 	-moz-animation: loading 20s linear infiniteout;
 	-o-animation: loading 20s linear infiniteout;
@@ -499,8 +504,8 @@ body{
 }
 
 #page5 .content .content-loading2 {
-	width: 50%;
-	height: 40%;
+	width: 30%;
+	height: 20%;
 	position: absolute;
 	top: 0;
 	left: 0;
