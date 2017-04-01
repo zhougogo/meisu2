@@ -67,12 +67,17 @@ function waitTime() {
 			$('#page2 .pagetwoContent2 .pagetwoContent2-idContent .waitTime').html(time);
 
 			n_sec++;
+			
 			if(n_sec > 59) {
+				
 				n_sec = 0;
+				
 				n_min++;
 			}
 			if(n_min > 59) {
+				
 				n_sec = 0;
+				
 				n_min = 0;
 
 			}
@@ -140,7 +145,7 @@ function countDown() {
 		}
 		if(countTime <= 0) {
 
-			clearInterval(timer);
+			countDown();
 
 		}
 		var l = $('#page3 .countDown .countImg').length;

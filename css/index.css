@@ -549,7 +549,7 @@ body{
 	position: absolute;
 	width:100%;
 	height: 79%;
-	top: 21%;
+	top: 40%;
 	left: 0;
 	right: 0;
 	margin: auto;
@@ -570,7 +570,7 @@ body{
 	left: 0;
 	right: 0;
 	margin: auto;
-	top:35%;
+	top:10%;
 	
 }
 
@@ -668,7 +668,7 @@ body{
 	right: 0;
 	margin: auto;
 	/*z-index:-1;*/
-	top: 8%;
+	top: 10%;
 }
 
 #page10 .photo-btm {
