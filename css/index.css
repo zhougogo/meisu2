@@ -60,7 +60,6 @@ body{
 .pageone .showSelect p {
 	text-indent: 6%;
 	line-height: 2rem;
-	letter-spacing: .3rem;
 	color: #A48A34;
 }
 
@@ -233,8 +232,8 @@ body{
 }
 
 #page2 .pagetwoContent3 .gameVideo {
-	width: 72%;
-	height: 30%;
+	width: 90%;
+	height: 38%;
 	position: absolute;
 	left: 0;
 	right: 0;
@@ -287,6 +286,7 @@ body{
 	height: 100%;
 	position:absolute;
 }
+
 #page2 .pagetwoContent2 .pagetwoContent2-idNum .idNum2{
 	left: 18%;
 }
@@ -725,7 +725,7 @@ body{
 #page12 .content .content-btm {
 	position: absolute;
 	width: 22%;
-	top: 74%;
+	top: 77%;
 	left: 0;
 	right: 0;
 	margin: auto;
@@ -748,8 +748,8 @@ body{
 
 #page13 .content-btm {
 	position: absolute;
-	width: 45.5%;
-	top: 81.1%;
+	width: 50%;
+	top: 78%;
 	left: 0;
 	right: 0;
 	margin: auto;
@@ -765,7 +765,7 @@ body{
 #page14 .content-btm {
 	position: absolute;
 	width: 22%;
-	top: 74%;
+	top: 76%;
 	left: 0;
 	right: 0;
 	margin: auto;
@@ -781,7 +781,7 @@ body{
 #page15 .content .content-btm {
 	position: absolute;
 	width: 22%;
-	top: 74%;
+	top: 76%;
 	left: 0;
 	right: 0;
 	margin: auto;
@@ -917,4 +917,49 @@ body{
 	line-height: 1.2rem;
 	color: #7C5E1C;
 	text-shadow: 0rem 0rem 0.3rem #FCF7E2;
+}
+
+/*..第15页...*/
+
+#page18 {
+	display: none;
+}
+
+#page18 .content .content-btm {
+	position: absolute;
+	width: 22%;
+	top: 77%;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+#page18 .content .popup {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+	display: none;
+}
+/*..第19页...*/
+
+#page19 {
+	display: none;
+}
+
+#page19 .content .content-btm {
+	position: absolute;
+	width: 22%;
+	top: 77%;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+#page19 .content .popup {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+	display: none;
 }
