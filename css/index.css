@@ -235,10 +235,10 @@ body{
 }
 
 #page2 .pagetwoContent3 .gameVideo {
-	width: 76%;
-	height: 34%;
+	width: 70%;
+	height: 31%;
 	position: absolute;
-	left: 7%;
+	left: 10%;
 	top: 44%;	
 }
 #page2 .pagetwoContent3 .gameVideo video {
