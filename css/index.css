@@ -239,8 +239,9 @@ body{
 	height: 32%;
 	position: absolute;
 	z-index: 10;
-	/*left: 10%;*/
-	left: 8%;
+	left: 16%;
+
+
 	top: 46%;
 /*	background: url(../images/rule/rulekuang.png) no-repeat center center;
 	-webkit-background-size: 100% 100%;
