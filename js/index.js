@@ -157,6 +157,8 @@ function countDown() {
 		}
 		if(countTime <= 0) {
 
+			clearInterval(timer);
+
 			countDown();
 
 		}
@@ -224,10 +226,10 @@ function page6() {
 		$('#page11').css('display', 'block').siblings().css('display', 'none');
 	})
 
-	$('#page11 .content-btm').on('tap', function() {
+	// $('#page11 .content-btm').on('tap', function() {
 
-		$('#page12').css('display', 'block').siblings().css('display', 'none');
-	})
+	// 	$('#page12').css('display', 'block').siblings().css('display', 'none');
+	// })
 
 	//	首次未加冕玩家，再次未成功加冕
 
@@ -236,10 +238,10 @@ function page6() {
 		$('#page14').css('display', 'block').siblings().css('display', 'none');
 	})
 
-	$('#page14 .content-btm').on('tap', function() {
+	// $('#page14 .content-btm').on('tap', function() {
 
-		$('#page15').css('display', 'block').siblings().css('display', 'none');
-	})
+	// 	$('#page15').css('display', 'block').siblings().css('display', 'none');
+	// })
 
 	//	....loser0...
 	$('#page8 .content-btm').on('tap', function() {
@@ -252,6 +254,25 @@ function page6() {
 		$('#page19').css('display', 'block').siblings().css('display', 'none');
 	})
 
+}
+// ...第十一页。。
+page11();
+
+function page11() {
+	//	....点击立即分享弹窗...
+	$('#page11 .content-btm').on('tap', function() {
+
+		$('#page11 .popup').css('display', 'block');
+
+	})
+
+	//  ....点击弹窗取消分享....
+
+	$('#page11 .popup').on('tap', function() {
+
+		$(this).css('display', 'none')
+
+	})
 }
 //.......第12页......
 
@@ -311,6 +332,24 @@ function page18() {
 	})
 }
 
+page14();
+
+function page14() {
+	//	....点击立即分享弹窗...
+	$('#page14 .content-btm').on('tap', function() {
+		$('#page14 .popup').css('display', 'block');
+
+	})
+
+	//  ....点击弹窗取消分享....
+
+	$('#page14 .popup').on('tap', function() {
+
+		$(this).css('display', 'none')
+
+	})
+}
+
 
 page19();
 function page19() {
@@ -329,3 +368,7 @@ function page19() {
 
 	})
 }
+
+// window.onload = function(){
+// 	video.play();
+// }

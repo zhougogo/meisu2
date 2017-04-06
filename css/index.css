@@ -37,9 +37,9 @@ body{
 /*.......第一页....*/
 
 .pageone .pageoneSelect {
-	width: 58%;
+	width: 62%;
 	position: absolute;
-	top: 47%;
+	top: 44%;
 	left: 0;
 	right: 0;
 	margin: auto;
@@ -61,6 +61,8 @@ body{
 	text-indent: 6%;
 	line-height: 2rem;
 	color: #A48A34;
+	font-size: .8rem;
+
 }
 
 .pageone .showSelect {
@@ -74,6 +76,7 @@ body{
 	color: #BDA145;
 	line-height: 2rem;
 	border-bottom: .1rem solid #E7DDBD;
+	font-size: .7rem;
 }
 
 .submitBtm {
@@ -232,7 +235,7 @@ body{
 }
 
 #page2 .pagetwoContent3 .gameVideo {
-	width: 90%;
+	width: 82%;
 	height: 38%;
 	position: absolute;
 	left: 0;
@@ -254,7 +257,7 @@ body{
 	bottom: 0;
 	left: 0;
 	margin: auto;
-	background-color: white;
+	/*background-color: white;*/
 }
 
 
@@ -370,9 +373,8 @@ body{
 /*超时页*/
 
 #page33 {
-	/*display: none;*/
-	position: absolute;
-	top: 100%;
+	display: none;
+
 }
 
 #page33 .content-funnel {
@@ -432,9 +434,8 @@ body{
 /*....第四页 加油....*/
 
 #page4 {
-	/*display: none;*/
-	position: absolute;
-	top: 200%;
+	display: none;
+
 }
 
 
@@ -714,6 +715,13 @@ body{
 	right: 0;
 	margin: auto;
 }
+#page11 .content .popup {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+	display: none;
+}
 
 
 /*..第12页...*/
@@ -731,13 +739,13 @@ body{
 	margin: auto;
 }
 
-#page12 .content .popup {
+/*#page12 .content .popup {
 	position: absolute;
 	width: 100%;
 	height: 100%;
 	z-index: 10;
 	display: none;
-}
+}*/
 
 
 /*...第13页...*/
@@ -769,6 +777,13 @@ body{
 	left: 0;
 	right: 0;
 	margin: auto;
+}
+#page14 .content .popup {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+	display: none;
 }
 
 
@@ -928,7 +943,7 @@ body{
 #page18 .content .content-btm {
 	position: absolute;
 	width: 22%;
-	top: 77%;
+	top: 75%;
 	left: 0;
 	right: 0;
 	margin: auto;
@@ -950,7 +965,7 @@ body{
 #page19 .content .content-btm {
 	position: absolute;
 	width: 22%;
-	top: 77%;
+	top: 75%;
 	left: 0;
 	right: 0;
 	margin: auto;
