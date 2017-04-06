@@ -236,12 +236,10 @@ body{
 
 #page2 .pagetwoContent3 .gameVideo {
 	width: 60%;
-	height: 30%;
+	height: 28%;
 	position: absolute;
 	z-index: 10;
 	left: 16%;
-
-
 	top: 46%;
 /*	background: url(../images/rule/rulekuang.png) no-repeat center center;
 	-webkit-background-size: 100% 100%;
