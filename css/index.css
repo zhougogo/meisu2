@@ -235,18 +235,25 @@ body{
 }
 
 #page2 .pagetwoContent3 .gameVideo {
-	width: 70%;
-	height: 31%;
+	width: 88%;
+	height: 38%;
 	position: absolute;
-	left: 10%;
-	top: 44%;	
+	z-index: 10;
+	/*left: 10%;*/
+	left: 0;
+	right: 0;
+	margin:auto;
+	top: 44%;
+	background: url(../images/rule/rulekuang.png) no-repeat center center;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;	
 }
 #page2 .pagetwoContent3 .gameVideo video{
 	display: none;
 }
 #page2 .pagetwoContent3 .gameVideo canvas {
-	width: 100%;
-	height: 100%;
+	width: 88%;
+	height: 88%;
 	border-radius: 5%;
 	position: absolute;
 	display: block;
@@ -255,12 +262,12 @@ body{
 	bottom: 0;
 	left: 0;
 	margin: auto;
-	border: 1.2rem solid transparent;
-	-webkit-border-image:url("../images/rule/rulekuang.png") 27;
+	/*border: 1.2rem solid transparent;*/
+/*	-webkit-border-image:url("../images/rule/rulekuang.png") 27;
 	-moz-border-image:url("../images/rule/rulekuang.png") 27;
 	-ms-border-image:url("../images/rule/rulekuang.png") 27;
 	-o-border-image:url("../images/rule/rulekuang.png") 27;
-	border-image: url("../images/rule/rulekuang.png") 27;
+	border-image: url("../images/rule/rulekuang.png") 27;*/
 
 	
 	/*background-color: white;*/
