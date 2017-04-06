@@ -236,7 +236,7 @@ body{
 
 #page2 .pagetwoContent3 .gameVideo {
 	width: 60%;
-	height: 30%;
+	height: 34%;
 	position: absolute;
 	z-index: 10;
 	left: 16%;
@@ -259,7 +259,7 @@ body{
 	bottom: 0;
 	left: 0;
 	margin: auto;
-	border: 1.2rem solid red;
+	border: 1.2rem solid #EFE3B1;
 	-webkit-border-image:url("../images/rule/rulekuang.png") 27;
 	-moz-border-image:url("../images/rule/rulekuang.png") 27;
 	-ms-border-image:url("../images/rule/rulekuang.png") 27;
