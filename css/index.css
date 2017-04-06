@@ -236,11 +236,11 @@ body{
 
 #page2 .pagetwoContent3 .gameVideo {
 	width: 70%;
-	height: 34%;
+	height: auto;
 	position: absolute;
 	z-index: 10;
 	left: 10%;
-	top: 46%;
+	top: 62%;
 /*	background: url(../images/rule/rulekuang.png) no-repeat center center;
 	-webkit-background-size: 100% 100%;
 	background-size: 100% 100%;	*/
@@ -250,7 +250,7 @@ body{
 }*/
 #page2 .pagetwoContent3 .gameVideo video {
 	width: 100%;
-	height: 100%;
+	height: auto;
 	border-radius: 5%;
 	position: absolute;
 	display: block;
