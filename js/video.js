@@ -7,6 +7,8 @@ gamePic.addEventListener('touchstart',function(){
 	gamePic.style.display = 'none';
 	
 	video.play();
+	
+	video.style.height = 'auto';
 })
 
 
