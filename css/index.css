@@ -253,8 +253,16 @@ body{
 	top: 44%;
 
 }
+#page2 .pagetwoContent3 .gamePic{
+	/*width: 100%;
+	position: absolute;
+	z-index: 5;*/
+	border: 1.2rem solid transparent;
+	z-index: 5;
+	
+}
 
-#page2 .pagetwoContent3 .gameVideo video {
+#page2 .pagetwoContent3 .gameVideo video,#page2 .pagetwoContent3 .gamePic {
 	width: 100%;
 	height: auto;
 	border-radius: 5%;
@@ -265,16 +273,20 @@ body{
 	bottom: 0;
 	left: 0;
 	margin: auto;
+	
+
+	font-size: 0;
+
+	
+	/*background-color: white;*/
+}
+#page2 .pagetwoContent3 .gameVideo video{
 	border: 1.2rem solid #EFE3B1;
 	-webkit-border-image:url("../images/rule/rulekuang.png") 27;
 	-moz-border-image:url("../images/rule/rulekuang.png") 27;
 	-ms-border-image:url("../images/rule/rulekuang.png") 27;
 	-o-border-image:url("../images/rule/rulekuang.png") 27;
 	border-image: url("../images/rule/rulekuang.png") 27;
-	font-size: 0;
-
-	
-	/*background-color: white;*/
 }
 
 
