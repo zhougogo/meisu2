@@ -1,6 +1,11 @@
 
 var video = document.getElementById('video');
-document.addEventListener('touchstart',function(){
+
+var gamePic = document.getElementsByClassName('gamePic')[0];
+
+gamePic.addEventListener('touchstart',function(){
+	gamePic.style.display = 'none';
+	
 	video.play();
 })
 
