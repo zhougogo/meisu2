@@ -101,12 +101,12 @@ body{
 	bottom: 0;
 	z-index: 10;
 	background-color: rgba(0, 0, 0, 0.5);
-	display: none;
+	/*display: none;*/
 }
 
 .myPopupDialog .popupBg {
-	width: 56%;
-	height: 41%;
+	width: 62%;
+	height: 46%;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -127,13 +127,13 @@ body{
 
 .myPopupDialog .popupBg h1 {
 	font-size: 2.0rem;
-	margin-bottom: 2.0rem;
+	margin-bottom: 1.6rem;
 }
 
 .myPopupDialog .popupBg p {
-	line-height: 1.6rem;
+	line-height: 1.4rem;
 }
-.myPopupDialog .popupBg form input{
+.myPopupDialog .popupBg form input[type="submit"],.myPopupDialog .popupBg form .place input{
 	background-color: transparent;
 	width: 100%;
 	border: none;
@@ -144,19 +144,29 @@ body{
 	line-height: 1.6rem;
 	
 }
-.myPopupDialog .popupBg form input[type="submit"]{
+.myPopupDialog .popupBg form .place input{
+	font-size: 1rem;
+}
+.myPopupDialog .popupBg form .placeNum{
 	width: 100%;
+	margin-top: .5rem;
+}
+.myPopupDialog .popupBg form .placeNum input{
+	width: 80%;
+	line-height: 1.2rem;
+	outline: none;
+}
+.myPopupDialog .popupBg form input[type="submit"]{
+	width: 80%;
 	height: 100%;
-	height: 1.8rem;
-	line-height: 1.8rem;
+	/*height: 1.6rem;*/
+	line-height: 1.6rem;
 }
 
 .myPopupDialog .popupBg .submit {
 	background: none;
-	margin: 1.8rem auto 0;
+	margin: 1.4rem auto 0;
 	width: 6rem;
-
-
 	border: 1px solid white;
 	border-radius: 2rem;
 	font-size: .8rem;
@@ -241,13 +251,9 @@ body{
 	z-index: 10;
 	left: 10%;
 	top: 44%;
-/*	background: url(../images/rule/rulekuang.png) no-repeat center center;
-	-webkit-background-size: 100% 100%;
-	background-size: 100% 100%;	*/
+
 }
-/*#page2 .pagetwoContent3 .gameVideo video{
-	display: none;
-}*/
+
 #page2 .pagetwoContent3 .gameVideo video {
 	width: 100%;
 	height: auto;
@@ -608,7 +614,7 @@ body{
 
 
 /*第七页*/
-#page7{
+/*#page7{
 	display: none;
 }
 #page7 .content .content-btm{
@@ -618,7 +624,7 @@ body{
 	left: 0;
 	right: 0;
 	margin: auto;
-}
+}*/
 
 
 
@@ -954,7 +960,7 @@ body{
 #page18 .content .content-btm {
 	position: absolute;
 	width: 22%;
-	top: 75%;
+	top: 77%;
 	left: 0;
 	right: 0;
 	margin: auto;
@@ -976,7 +982,7 @@ body{
 #page19 .content .content-btm {
 	position: absolute;
 	width: 22%;
-	top: 75%;
+	top: 77%;
 	left: 0;
 	right: 0;
 	margin: auto;

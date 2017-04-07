@@ -209,15 +209,15 @@ function page6() {
 	//情况2：首次未加冕玩家，再次参与成功加冕
 
 	$('#page6 .content .photo-btm').on('tap', function() {
-		$('#page7').css('display', 'block').siblings().css('display', 'none');
+		$('#page18').css('display', 'block').siblings().css('display', 'none');
 	});
 
 	//	情况1：首次未加冕
 	//	情况2：已加冕玩家，再次参与未成功加冕
 
-	$('#page7 .content-btm').on('tap', function() {
-		$('#page18').css('display', 'block').siblings().css('display', 'none');
-	})
+//	$('#page7 .content-btm').on('tap', function() {
+//		$('#page18').css('display', 'block').siblings().css('display', 'none');
+//	})
 
 	//	已加冕玩家，再次加冕
 
@@ -246,13 +246,13 @@ function page6() {
 	//	....loser0...
 	$('#page8 .content-btm').on('tap', function() {
 
-		$('#page9').css('display', 'block').siblings().css('display', 'none');
-	})
-	
-	$('#page9 .content-btm').on('tap', function() {
-
 		$('#page19').css('display', 'block').siblings().css('display', 'none');
 	})
+	
+//	$('#page9 .content-btm').on('tap', function() {
+//
+//		$('#page19').css('display', 'block').siblings().css('display', 'none');
+//	})
 
 }
 // ...第十一页。。
