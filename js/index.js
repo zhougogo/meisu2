@@ -6,7 +6,7 @@ $('.pageone .showContent p').on('tap', function() {
 	$(this).addClass('selectBg').siblings().removeClass('selectBg');
 
 	var textPlace = $(this).html();
-
+	
 	$(".pageone .myPopupDialog .place input").val(textPlace);
 	
 	$('.pageone .showSelect p').html(textPlace);
@@ -17,6 +17,14 @@ $('.pageone .showContent p').on('tap', function() {
 	
 	
 })
+//....验证码..
+	
+	var idCode = $('#page1 .showContent2 input').val();
+	
+	console.log(idCode)
+	
+	$('#page1 .myPopupDialog1 .placeNum input').val(idCode);
+
 
 //下拉框的出现
 $('.pageone .showSelect').on('tap', function() {
@@ -35,7 +43,7 @@ $('.submitBtm').tap(function() {
 	
 	if($('.pageone .showContent p').hasClass('selectBg')) {
 		
-		$('.myPopupDialog').show();
+		$('.myPopupDialog1').show();
 	}
 
 })

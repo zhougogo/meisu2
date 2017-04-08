@@ -1,45 +1,61 @@
 /*//进入场次页*/
-img{
+
+img {
 	display: block;
 	width: 100%;
 	height: 100%;
 	/*border-radius:inherit;*/
 }
-html{
-	width:100%;
-	height: 100%;
-}
-body{
+
+html {
 	width: 100%;
 	height: 100%;
 }
-.page{
+
+body {
+	width: 100%;
+	height: 100%;
+}
+
+.page {
 	width: 100%;
 	height: 100%;
 	position: absolute;
-	/*display: none;*/	
-}
-.page .content{
-	width: 100%;
-	height: 100%;	
+	/*display: none;*/
 }
 
-.page .content .content-bg{
+.page .content {
 	width: 100%;
 	height: 100%;
-	position:absolute;
+}
+
+.page .content .content-bg ,#page0 .content .content-bg{
+	width: 100%;
+	height: 100%;
+	position: absolute;
 	top: 0;
 	left: 0;
 	right: 0;
 	bottom: 0;
 }
 
+
+#page2 .pagetwoContent3 {
+	position: absolute;
+	top: 0;
+	/*display: none;*/
+}
+
 /*.......第一页....*/
+#page1{
+	position: absolute;
+	top: 100%;
+}
 
 .pageone .pageoneSelect {
 	width: 62%;
 	position: absolute;
-	top: 44%;
+	top: 42%;
 	left: 0;
 	right: 0;
 	margin: auto;
@@ -51,6 +67,7 @@ body{
 	background-color: #F4F0E1;
 	display: none;
 	border-radius: 0.3rem;
+	position: absolute;
 }
 
 .pageone .pageoneSelect .selectBg {
@@ -59,10 +76,9 @@ body{
 
 .pageone .showSelect p {
 	text-indent: 6%;
-	line-height: 2rem;
+	line-height: 1.8rem;
 	color: #A48A34;
 	font-size: .8rem;
-
 }
 
 .pageone .showSelect {
@@ -74,10 +90,30 @@ body{
 .pageone .pageoneSelect .showContent p {
 	text-indent: 5%;
 	color: #BDA145;
-	line-height: 2rem;
+	line-height: 1.8rem;
 	border-bottom: .1rem solid #E7DDBD;
 	font-size: .7rem;
 }
+
+.pageone .showContent2 {
+	width: 100%;
+	position: absolute;
+	top: 220%;
+}
+
+.pageone .showContent2 input {
+	width: 100%;
+	border: none;
+	outline: none;
+	line-height: 1.8rem;
+	font-size: .7rem;
+	text-indent: 5%;
+	color: #BDA145;
+	background-color: #F3EDDD;
+}
+
+
+
 
 .submitBtm {
 	position: absolute;
@@ -103,9 +139,14 @@ body{
 	background-color: rgba(0, 0, 0, 0.5);
 	/*display: none;*/
 }
-
+.myPopupDialog1{
+	display: none;
+}
+.myPopupDialog2{
+	display: none;
+}
 .myPopupDialog .popupBg {
-	width: 62%;
+	width: 58%;
 	height: 46%;
 	position: absolute;
 	top: 0;
@@ -124,50 +165,85 @@ body{
 	box-sizing: border-box;
 	text-align: center;
 }
+.myPopupDialog .popupBg2{
+	padding: 20% 10%;
+}
+.myPopupDialog .popupBg2 p{
+	text-align: center;
+	/*margin-left: 0rem;*/
+}
+.myPopupDialog .popupBg2 p{
+	line-height: 1.6rem;
+}
 
 .myPopupDialog .popupBg h1 {
 	font-size: 2.0rem;
 	margin-bottom: 1.6rem;
 }
 
-.myPopupDialog .popupBg p {
-	line-height: 1.4rem;
+.myPopupDialog .popupBg1 p {
+	line-height: 1.6rem;
+	margin-left: .5rem;
 }
-.myPopupDialog .popupBg form input[type="submit"],.myPopupDialog .popupBg form .place input{
+.myPopupDialog .popupBg2 p{
+	
+}
+.myPopupDialog .popupBg2 .resetBg{
+	width: 80%;
+	margin:24% auto;
+	height: 30%;
+}
+
+.myPopupDialog .popupBg form input {
 	background-color: transparent;
 	width: 100%;
 	border: none;
 	outline: none;
-	font-size: 1rem;
+	font-size: 1.2rem;
 	text-align: center;
 	color: white;
-	line-height: 1.6rem;
-	
+	line-height: 1.8rem;
 }
-.myPopupDialog .popupBg form .place input{
-	font-size: 1rem;
+
+.myPopupDialog .popupBg form .place input {
+	font-size: 1.2rem;
 }
-.myPopupDialog .popupBg form .placeNum{
+
+.myPopupDialog .popupBg form .placeNum {
 	width: 100%;
-	margin-top: .5rem;
+	/*margin-top: .5rem;*/
 }
-.myPopupDialog .popupBg form .placeNum input{
-	width: 80%;
-	line-height: 1.2rem;
-	outline: none;
+.myPopupDialog .popupBg form p{
+	width: 100%;
+	text-align: center;
+	margin-top: 1.2rem;
+	font-size: 1.2rem;
+	margin-left: .5rem;
 }
-.myPopupDialog .popupBg form input[type="submit"]{
-	width: 80%;
-	height: 100%;
+
+.myPopupDialog .popupBg form button {
+	width: 66%;
+	height:20%;
 	/*height: 1.6rem;*/
-	line-height: 1.6rem;
+	/*line-height: 1.6rem;*/
+	background-color:transparent;
+	border: none;
+	outline: none;
+	margin-right: 2rem;
+	position: absolute;
+	right: 0;
+	left:0;
+	margin: auto;
+	bottom: 6%;
 }
 
 .myPopupDialog .popupBg .submit {
 	background: none;
+	width: 100%;
+	height: 30%;
 	margin: 1.4rem auto 0;
 	width: 6rem;
-	border: 1px solid white;
+	/*border: 1px solid white;*/
 	border-radius: 2rem;
 	font-size: .8rem;
 }
@@ -184,7 +260,7 @@ body{
 
 #page2 {
 	width: 100%;
-	height: 200%;
+	height: 100%;
 	/*display: none;*/
 }
 
@@ -222,7 +298,7 @@ body{
 /*...第二页排队页....*/
 
 #page2 .pagetwoContent1 {
-	display: none;
+	/*display: none;*/
 	position: absolute;
 	top: 0;
 }
@@ -251,21 +327,21 @@ body{
 	z-index: 10;
 	left: 10%;
 	top: 44%;
-
 }
-#page2 .pagetwoContent3 .gamePic{
+
+#page2 .pagetwoContent3 .gamePic {
 	width: 100%;
 	height: 100%;
 	/*position: absolute;*/
 	z-index: 5;
 	border: 1.2rem solid transparent;
 	z-index: 5;
-	
 }
 
-#page2 .pagetwoContent3 .gameVideo video,#page2 .pagetwoContent3 .gamePic {
+#page2 .pagetwoContent3 .gameVideo video,
+#page2 .pagetwoContent3 .gamePic {
 	width: 100%;
-	height:100%;
+	height: 100%;
 	border-radius: 5%;
 	position: absolute;
 	display: block;
@@ -275,16 +351,15 @@ body{
 	left: 0;
 	margin: auto;
 	font-size: 0;
-
-	
 	/*background-color: white;*/
 }
-#page2 .pagetwoContent3 .gameVideo video{
+
+#page2 .pagetwoContent3 .gameVideo video {
 	border: 1.2rem solid #EFE3B1;
-	-webkit-border-image:url("../images/rule/rulekuang.png") 27;
-	-moz-border-image:url("../images/rule/rulekuang.png") 27;
-	-ms-border-image:url("../images/rule/rulekuang.png") 27;
-	-o-border-image:url("../images/rule/rulekuang.png") 27;
+	-webkit-border-image: url("../images/rule/rulekuang.png") 27;
+	-moz-border-image: url("../images/rule/rulekuang.png") 27;
+	-ms-border-image: url("../images/rule/rulekuang.png") 27;
+	-o-border-image: url("../images/rule/rulekuang.png") 27;
 	border-image: url("../images/rule/rulekuang.png") 27;
 }
 
@@ -302,7 +377,6 @@ body{
 	width: 100%;
 	text-align: center;
 	top: 46%;
-
 }
 
 #page2 .pagetwoContent2 .pagetwoContent2-idNum {
@@ -315,16 +389,18 @@ body{
 #page2 .pagetwoContent2 .pagetwoContent2-idNum .idNum1 {
 	width: 20%;
 	height: 100%;
-	position:absolute;
+	position: absolute;
 }
 
-#page2 .pagetwoContent2 .pagetwoContent2-idNum .idNum2{
+#page2 .pagetwoContent2 .pagetwoContent2-idNum .idNum2 {
 	left: 18%;
 }
-#page2 .pagetwoContent2 .pagetwoContent2-idNum .idNum3{
+
+#page2 .pagetwoContent2 .pagetwoContent2-idNum .idNum3 {
 	left: 40%;
 }
-#page2 .pagetwoContent2 .pagetwoContent2-idNum .idNum4{
+
+#page2 .pagetwoContent2 .pagetwoContent2-idNum .idNum4 {
 	left: 62%;
 }
 
@@ -350,11 +426,7 @@ body{
 	line-height: 1.6rem;
 }
 
-#page2 .pagetwoContent3 {
-	position: absolute;
-	top: 100%;
-	/*display: none;*/
-}
+
 
 
 /*....第三页...*/
@@ -368,7 +440,6 @@ body{
 	top: 56%;
 	width: 100%;
 	height: 14%;
-
 }
 
 #page3 .countDown div {
@@ -376,16 +447,18 @@ body{
 	height: 100%;
 	position: absolute;
 }
-#page3 .countDown .countDown1{
-	left:22%;
+
+#page3 .countDown .countDown1 {
+	left: 22%;
 }
-#page3 .countDown .countDown2{
-	left:42%;
+
+#page3 .countDown .countDown2 {
+	left: 42%;
 }
 
 #page3 .countDown .countDownPic {
 	height: 30%;
-	left:60%;
+	left: 60%;
 }
 
 #page3 .reQueue {
@@ -402,7 +475,6 @@ body{
 
 #page33 {
 	display: none;
-
 }
 
 #page33 .content-funnel {
@@ -463,7 +535,6 @@ body{
 
 #page4 {
 	display: none;
-
 }
 
 
@@ -566,7 +637,6 @@ body{
 	text-align: center;
 	width: 100%;
 	top: 84%;
-
 }
 
 #page5 .content .content-totalMinutes p {
@@ -576,28 +646,31 @@ body{
 
 
 /*...第六页...*/
-#page6{
+
+#page6 {
 	/*display: none;*/
 }
 
-#page6 .photo{
+#page6 .photo {
 	position: absolute;
-	width:100%;
-	height: 79%;
+	width: 100%;
+	height: 60%;
 	top: 40%;
 	left: 0;
 	right: 0;
 	margin: auto;
 }
-#page6 .photo .photo-bg{
+
+#page6 .photo .photo-bg {
 	width: 100%;
 	position: absolute;
 	z-index: 10;
+	
 }
-#page6 .photo .photo-pic{
 
+#page6 .photo .photo-pic {
 	width: 30%;
-	height: 23%;
+	height: 25%;
 	position: absolute;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
@@ -605,14 +678,23 @@ body{
 	left: 0;
 	right: 0;
 	margin: auto;
-	top:9%;
-	
-}
-#page6 .photo .photo-pic img{
-	border-radius:inherit;
+	top: 13%;
 }
 
-#page6 .photo-btm{
+#page6 .photo .photo-pic img {
+	border-radius: inherit;
+}
+#page6 .an{
+	position: absolute;
+	z-index: 10;
+	top: 79%;
+	text-align: center;
+	width: 100%;
+	color: #926F21;
+	font-size: .9rem;
+}
+
+#page6 .photo-btm {
 	width: 45.4%;
 	position: absolute;
 	top: 81%;
@@ -623,8 +705,9 @@ body{
 }
 
 
-
 /*第七页*/
+
+
 /*#page7{
 	display: none;
 }
@@ -636,7 +719,6 @@ body{
 	right: 0;
 	margin: auto;
 }*/
-
 
 
 /*...第8页...*/
@@ -685,7 +767,6 @@ body{
 	left: 0;
 	right: 0;
 	margin: auto;
-
 }
 
 #page10 .photo .photo-bg {
@@ -695,7 +776,7 @@ body{
 }
 
 #page10 .photo .photo-pic {
-	background-color:white;
+	background-color: white;
 	width: 30%;
 	height: 22%;
 	position: absolute;
@@ -709,7 +790,8 @@ body{
 	top: 9%;
 	overflow: hidden;
 }
-#page10 .photo .photo-pic img{
+
+#page10 .photo .photo-pic img {
 	width: 100%;
 	height: 100%;
 	/*border:1px solid black;*/
@@ -738,11 +820,12 @@ body{
 #page11 .content .content-btm {
 	position: absolute;
 	width: 22%;
-	top: 74%;
+	top: 78%;
 	left: 0;
 	right: 0;
 	margin: auto;
 }
+
 #page11 .content .popup {
 	position: absolute;
 	width: 100%;
@@ -766,6 +849,7 @@ body{
 	right: 0;
 	margin: auto;
 }
+
 
 /*#page12 .content .popup {
 	position: absolute;
@@ -806,6 +890,7 @@ body{
 	right: 0;
 	margin: auto;
 }
+
 #page14 .content .popup {
 	position: absolute;
 	width: 100%;
@@ -842,7 +927,7 @@ body{
 /*...第16页...*/
 
 #page16 {
-	/*display: none;*/
+	display: none;
 }
 
 #page16 .photo {
@@ -884,16 +969,23 @@ body{
 #page16 .shareContent {
 	position: absolute;
 	width: 100%;
-	top: 47%;
-
+	top: 45%;
 	text-align: center;
 }
+#page16 .shareContent .pla{
+	width: 7%;
+	position: absolute;
+	left: 16%;
+	top: -26%;
+}
+
 
 #page16 .shareContent p {
-	font-size: 1.1rem;
+	font-size: .8rem;
 	line-height: 1.3rem;
 	color: #7C5E1C;
 	text-shadow: 0rem 0rem 0.3rem #FCF7E2;
+	font-weight: bold;
 }
 
 #page16 .share {
@@ -901,28 +993,36 @@ body{
 	left: 0;
 	right: 0;
 	margin: auto;
-	top: 58.7%;
+	top: 55%;
 	width: 67%;
 }
 
 #page16 .share .share-bg {
-	width: 100%;
+	width: 60%;
+	left: 5%;
 	position: absolute;
 }
 
 #page16 .share .share-erweima {
-	width: 36%;
+	width: 30%;
 	position: absolute;
-	left: 7%;
-	/*top: 10%;*/
-	margin-top: 5%;
+	left: 64%;
+
+	margin-bottom: 5%;
+	transform: scale(1.2);
+}
+#page17 .shareContent .pla{
+	width: 7%;
+	position: absolute;
+	left: 25%;
+	top: -26%;
 }
 
 
 /*...第17页...*/
 
 #page17 {
-	display: none;
+	/*display: none;*/
 }
 
 #page17 .share {
@@ -930,37 +1030,40 @@ body{
 	left: 0;
 	right: 0;
 	margin: auto;
-	top: 58.7%;
+	top: 56%;
 	width: 67%;
 }
 
 #page17 .share .share-bg {
-	width: 100%;
+	width: 60%;
+	left: 5%;
 	position: absolute;
 }
 
 #page17 .share .share-erweima {
-	width: 36%;
+	width: 30%;
 	position: absolute;
-	left: 7%;
-	/*top: 10%;*/
-	margin-top: 5%;
+	left: 64%;
+
+	margin-bottom: 5%;
+	transform: scale(1.2);
 }
 
 #page17 .shareContent {
 	position: absolute;
 	width: 100%;
-	top: 46%;
-
+	top: 44%;
 	text-align: center;
 }
 
 #page17 .shareContent p {
-	font-size: 1rem;
+	font-size: .8rem;
 	line-height: 1.2rem;
+	font-weight: bold;
 	color: #7C5E1C;
 	text-shadow: 0rem 0rem 0.3rem #FCF7E2;
 }
+
 
 /*..第15页...*/
 
@@ -984,6 +1087,8 @@ body{
 	z-index: 10;
 	display: none;
 }
+
+
 /*..第19页...*/
 
 #page19 {
