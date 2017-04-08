@@ -40,9 +40,8 @@ $('.submitBtm').tap(function() {
 	if($('.pageone .showContent p').hasClass('selectBg')) {
 		
 		$('.myPopupDialog1').show();
+		
 		var idCode = $('#page1 .showContent2 input').val();
-	
-		console.log(idCode)
 	
 	$('#page1 .myPopupDialog1 .placeNum input').val(idCode);
 	}
