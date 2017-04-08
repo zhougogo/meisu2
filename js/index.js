@@ -391,6 +391,6 @@ var height = $('body').height();
 
         $(window).resize(function() {
         	
-            $('#page1 .content').height(height);
+            $('#page1 .content').height(height/2);
             
         });
