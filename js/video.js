@@ -11,6 +11,7 @@ gamePic.addEventListener('touchstart',function(){
 	video.style.height = 'auto';
 })
 
+ 
 
 
 // document.addEventListener("WeixinJSBridgeReady", function onBridgeReady() {

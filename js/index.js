@@ -387,3 +387,10 @@ function page19() {
 // 	video.play();
 // }
 
+var height = $('body').height();
+
+        $(window).resize(function() {
+        	
+            $('#page1 .content').height(height);
+            
+        });
