@@ -971,7 +971,7 @@ input{
 /*...第16页...*/
 
 #page16 {
-	display: none;
+	/*display: none;*/
 }
 
 #page16 .photo {
@@ -980,7 +980,7 @@ input{
 	height: 100%;
 	left: 0;
 	right: 0;
-	top: 0;
+	top: -5%;
 	bottom: 0;
 	margin: auto;
 }
@@ -988,6 +988,7 @@ input{
 #page16 .photo .photo-bg {
 	position: absolute;
 	z-index: 10;
+	width: 100%;
 }
 
 #page16 .photo .photo-pic {
@@ -996,7 +997,7 @@ input{
 	background-color: white;
 	left: 0;
 	right: 0;
-	top: 20%;
+	top: 21%;
 	border-radius: 50%;
 	margin: auto;
 	position: absolute;
@@ -1058,7 +1059,7 @@ input{
 #page17 .shareContent .pla{
 	width: 7%;
 	position: absolute;
-	left: 25%;
+	left: 21%;
 	top: -26%;
 }
 
@@ -1066,7 +1067,7 @@ input{
 /*...第17页...*/
 
 #page17 {
-	/*display: none;*/
+	display: none;
 }
 
 #page17 .share {
