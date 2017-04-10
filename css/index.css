@@ -187,7 +187,7 @@ input{
 	display: none;
 }
 .myPopupDialog2{
-	display: none;
+	/*display: none;*/
 }
 .myPopupDialog .popupBg {
 	width: 64%;
