@@ -15,90 +15,92 @@
 	</head>
 
 	<body>
-		<div class="swiper-container">
-	        <div class="swiper-wrapper">
-				<div id="page2" class="pagetwo swiper-slide">
-					<div class="pagetwoContent3">
-						<div class="pagetwoContent3-bg">
-							<img src="images/rule/rule.png" />
-						</div>
-						<div class="gameVideo">
-							<div class="gamePic">
-								<img src="images/proter.png" />
+
+			<div class="swiper-container">
+		        <div class="swiper-wrapper">
+					<div id="page2" class="pagetwo swiper-slide">
+						<div class="pagetwoContent3">
+							<div class="pagetwoContent3-bg">
+								<img src="images/rule/rule.png" />
 							</div>
-							<video loop="loop" id="video" preload>
-								<source src="demo.mp4" type="video/mp4" webkit-playsinline='true'>
-							</video>
-							<!-- <canvas id="canvas"></canvas> -->
+							<div class="gameVideo">
+								<div class="gamePic">
+									<img src="images/proter.png" />
+								</div>
+								<video loop="loop" id="video" preload>
+									<source src="demo.mp4" type="video/mp4" webkit-playsinline='true'>
+								</video>
+								<!-- <canvas id="canvas"></canvas> -->
+							</div>
 						</div>
+			
 					</div>
-		
-				</div>
-				
-				<!--第一页-->
-				<div id="page1" class="pageone page swiper-slide">
-					<div class="content">
-						<div class="content-bg">
-							<img src="images/choose/choosebg.png" />
-						</div>
-						<div class="pageoneSelect">
-							<div class="showSelect">
-								<p>点击此处选择本次活动场次</p>
+					
+					<!--第一页-->
+					<div id="page1" class="pageone page swiper-slide">
+						<div class="content">
+							<div class="content-bg">
+								<img src="images/choose/choosebg.png" />
 							</div>
-							<div class="showContent">
-								<p>上海虹口龙之梦</p>
+							<div class="pageoneSelect">
+								<div class="showSelect">
+									<p>点击此处选择本次活动场次</p>
+								</div>
+								<div class="showContent">
+									<p>上海虹口龙之梦</p>
+								</div>
+								<div class="showContent2">
+									<p><input type="number" placeholder="请输入LED屏显示的四位数字验证码"/></p>
+								</div>
 							</div>
-							<div class="showContent2">
-								<p><input type="number" placeholder="请输入LED屏显示的四位数字验证码"/></p>
+							<div class="submitBtm">
+								<img src="images/select/Play.png" />
 							</div>
-						</div>
-						<div class="submitBtm">
-							<img src="images/select/Play.png" />
-						</div>
-		
-						<div class="myPopupDialog myPopupDialog1">
-							<div class="popupBg">
-								<!--<img src="images/select/圆角矩形-1.png"/>-->
-								<h1>请确认</h1>
-								<p>您选择的场次为</p>
-								<form action="">
-									<div class="place"><input type="text" name="" value="上海虹口" readonly="readonly" /></div>
-									<p>验证码：</p>
-									<div class="placeNum"><input type="text" readonly="readonly" value="8888" /></div>
-									<div class="submit">
-										<button type="submit">
-											<img src="images/choose/querenBtm.png"/>
-										</button>
+			
+							<div class="myPopupDialog myPopupDialog1">
+								<div class="popupBg">
+									<!--<img src="images/select/圆角矩形-1.png"/>-->
+									<h1>请确认</h1>
+									<p>您选择的场次为</p>
+									<form action="">
+										<div class="place"><input type="text" name="" value="上海虹口" readonly="readonly" /></div>
+										<p>验证码：</p>
+										<div class="placeNum"><input type="text" readonly="readonly" value="8888" /></div>
+										<div class="submit">
+											<button type="submit">
+												<img src="images/choose/querenBtm.png"/>
+											</button>
+										</div>
+									</form>
+									<div class="cancelPhoto">
+										<img src="images/select/X-.png" />
 									</div>
-								</form>
-								<div class="cancelPhoto">
-									<img src="images/select/X-.png" />
+			
 								</div>
-		
 							</div>
-						</div>
-						<div class="myPopupDialog myPopupDialog2">
-							<div class="popupBg popupBg2">
-								<!--<img src="images/select/圆角矩形-1.png"/>-->
-								<p>很抱歉</p>
-								<p>你输入的验证码</p>
-								<p>或场次不匹配</p>
-								<p>请返回重新输入</p>
-								<div class="resetBg">
-									<img src="images/choose/fanhuiBtm.png" />
+							<div class="myPopupDialog myPopupDialog2">
+								<div class="popupBg popupBg2">
+									<!--<img src="images/select/圆角矩形-1.png"/>-->
+									<p>很抱歉</p>
+									<p>你输入的验证码</p>
+									<p>或场次不匹配</p>
+									<p>请返回重新输入</p>
+									<div class="resetBg">
+										<img src="images/choose/fanhuiBtm.png" />
+									</div>
+									<div class="cancelPhoto">
+										<img src="images/select/X-.png" />
+									</div>
+			
 								</div>
-								<div class="cancelPhoto">
-									<img src="images/select/X-.png" />
-								</div>
-		
 							</div>
+			
 						</div>
-		
+			
 					</div>
-		
 				</div>
 			</div>
-		</div>
+
 
 	</body>
 	<script src="js/video.js"></script> 

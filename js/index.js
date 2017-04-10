@@ -24,7 +24,7 @@ $('.pageone .showContent p').on('tap', function() {
 
 //下拉框的出现
 $('.pageone .showSelect').on('tap', function() {
-	console.log(123);
+//	console.log(123);
 	$('.pageone .showContent').css('display', 'block');
 })
 
