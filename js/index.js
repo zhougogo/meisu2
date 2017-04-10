@@ -17,7 +17,12 @@ $('.pageone .showContent p').on('tap', function() {
 	
 	
 })
-//....验证码..
+//....返回..
+$('.myPopupDialog2 .resetBg').on('tap',function(){
+	
+	$('.myPopupDialog2').css('display','none');
+	
+})
 	
 
 
