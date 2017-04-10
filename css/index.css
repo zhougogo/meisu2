@@ -980,7 +980,7 @@ input{
 	height: 100%;
 	left: 0;
 	right: 0;
-	top: -6%;
+	top: 30%;
 	bottom: 0;
 	margin: auto;
 }
@@ -992,14 +992,17 @@ input{
 }
 
 #page16 .photo .photo-pic {
-	width: 22%;
-	height: 12.5%;
+	width: 21%;
+	height: 11%;
 	background-color: white;
-	left: 0;
-	right: 0;
-	top: 22%;
-	border-radius: 50%;
-	margin: auto;
+	left: 39%;
+	/*right: 0%;*/
+	top: 6%;
+	-webkit-border-radius: 50% 50%;
+	-moz-border-radius: 50% 50%;
+	border-radius: 50% 50%;
+
+	/*margin: auto;*/
 	position: absolute;
 	/*z-index: -1;*/
 }
@@ -1020,7 +1023,7 @@ input{
 #page16 .shareContent .pla{
 	width: 7%;
 	position: absolute;
-	left: 16%;
+	left: 10%;
 	top: -26%;
 }
 
