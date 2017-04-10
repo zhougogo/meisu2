@@ -18,10 +18,6 @@ body {
 	height: 100%;
 	position: relative;
 }
-#app{
-	width: 100%;
-	height: 100%;
-}
 .swiper-container {
     width: 100%;
     height: 100%;
@@ -61,7 +57,7 @@ input{
 /*.......第一页....*/
 #page1{
 	position: absolute;
-	top:100%;
+	top: 100%;
 
 	width: 100%;
 	height: 100%;
@@ -191,7 +187,7 @@ input{
 	display: none;
 }
 .myPopupDialog2{
-	/*display: none;*/
+	display: none;
 }
 .myPopupDialog .popupBg {
 	width: 64%;
@@ -717,8 +713,8 @@ input{
 }
 
 #page6 .photo .photo-pic {
-	width: 30%;
-	height: 22%;
+	width: 33%;
+	height: 25%;
 	position: absolute;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
