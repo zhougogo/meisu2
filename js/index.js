@@ -24,7 +24,7 @@ $('.pageone .showContent p').on('tap', function() {
 
 //下拉框的出现
 $('.pageone .showSelect').on('tap', function() {
-	
+	console.log(123);
 	$('.pageone .showContent').css('display', 'block');
 })
 
@@ -387,14 +387,14 @@ function page19() {
 // 	video.play();
 // }
 
-//var height = $('body').height();
-//
-//      $(window).resize(function() {
-//      	
-//          $('#page1 .content').height(height);
-//          
-//      });
+var height = $('body').height();
 
-$(document).ready(function () {
-　　$('body').height($('body')[0].clientHeight);
-});
+        $(window).resize(function() {
+        	
+            $('#page1 .content').height(height);
+            
+        });
+
+//$(document).ready(function () {
+//　　$('body').height($('body')[0].clientHeight);
+//});
