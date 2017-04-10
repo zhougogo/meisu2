@@ -971,7 +971,7 @@ input{
 /*...第16页...*/
 
 #page16 {
-	display: none;
+	/*display: none;*/
 }
 
 #page16 .photo {
@@ -1070,7 +1070,7 @@ input{
 /*...第17页...*/
 
 #page17 {
-	/*display: none;*/
+	display: none;
 }
 
 #page17 .share {
