@@ -185,7 +185,7 @@ input{
 	/*display: none;*/
 }
 .myPopupDialog1{
-	display: none;
+	/*display: none;*/
 }
 .myPopupDialog2{
 	/*display: none;*/
@@ -223,7 +223,7 @@ input{
 
 .myPopupDialog .popupBg h1 {
 	font-size: 2.0rem;
-	margin-bottom: 1.6rem;
+	margin-bottom: 10%;
 }
 
 .myPopupDialog .popupBg1 p {
@@ -261,7 +261,7 @@ input{
 .myPopupDialog .popupBg form p{
 	width: 100%;
 	text-align: center;
-	margin-top: 1.2rem;
+	margin-top: 10%;
 	font-size: 1.2rem;
 	margin-left: .5rem;
 }
@@ -869,7 +869,7 @@ input{
 #page11 .content .content-btm {
 	position: absolute;
 	width: 26%;
-	top: 72%;
+	top: 73%;
 	left: 0;
 	right: 0;
 	margin: auto;
