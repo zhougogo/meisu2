@@ -1,5 +1,9 @@
 //........第一页......
-
+ //定死input框那一页的高度
+ 	var conHeight = $(window).height();//获取手机设备的高度
+ 	
+ 	$('#page1 .content').height(conHeight);
+ 
 //切换下拉框场地
 $('.pageone .showContent p').on('tap', function() {
 

@@ -118,8 +118,9 @@ input{
 
 .pageone .showContent2 {
 	width: 100%;
-	position: absolute;
-	top: 220%;
+	margin-top: 10%;
+	/*position: absolute;
+	top: 220%;*/
 }
 /*.pageone .showContent2{
 	width: 100%;
@@ -162,7 +163,7 @@ input{
 .submitBtm {
 	position: absolute;
 	width: 26%;
-	bottom: 5%;
+	bottom: 4%;
 	left: 0;
 	right: 0;
 	margin: auto;
@@ -713,7 +714,7 @@ input{
 }
 
 #page6 .photo .photo-pic {
-	width: 33%;
+	width: 32%;
 	height: 25%;
 	position: absolute;
 	-webkit-border-radius: 50%;
@@ -722,12 +723,16 @@ input{
 	left: 0;
 	right: 0;
 	margin: auto;
+	overflow: hidden;
 	top: 9%;
 }
 
-#page6 .photo .photo-pic img {
+/*#page6 .photo .photo-pic img {
+	-webkit-border-radius: inherit;
+	-moz-border-radius: inherit;
 	border-radius: inherit;
-}
+
+}*/
 #page6 .an{
 	position: absolute;
 	z-index: 10;
@@ -864,7 +869,7 @@ input{
 #page11 .content .content-btm {
 	position: absolute;
 	width: 22%;
-	top: 78%;
+	top: 75%;
 	left: 0;
 	right: 0;
 	margin: auto;
@@ -888,7 +893,7 @@ input{
 #page12 .content .content-btm {
 	position: absolute;
 	width: 22%;
-	top: 77%;
+	top: 75%;
 	left: 0;
 	right: 0;
 	margin: auto;
@@ -947,7 +952,7 @@ input{
 /*..第15页...*/
 
 #page15 {
-	display: none;
+	/*display: none;*/
 }
 
 #page15 .content .content-btm {
@@ -1001,10 +1006,15 @@ input{
 	-webkit-border-radius: 50% 50%;
 	-moz-border-radius: 50% 50%;
 	border-radius: 50% 50%;
-
+	overflow: hidden;
 	/*margin: auto;*/
 	position: absolute;
 	/*z-index: -1;*/
+}
+#page16 .photo .photo-pic img{
+	-webkit-border-radius: inherit;
+	-moz-border-radius: inherit;
+	border-radius: inherit;
 }
 
 #page16 .share-erweima {
@@ -1017,23 +1027,31 @@ input{
 #page16 .shareContent {
 	position: absolute;
 	width: 100%;
-	top: 45%;
+	top: 40%;
 	text-align: center;
 }
 #page16 .shareContent .pla{
 	width: 7%;
-	position: absolute;
-	left: 15%;
-	top: -26%;
+	/*height: 1%;*/
+	margin-top: 2%;
+	display:inline-block;
+	/*position: absolute;*/
+	
+	/*left: 15%;
+	top: -26%;*/
+}
+#page16 .shareContent .pla img{
+	margin-left: 30%;
+	/*padding-top: 20%;*/
 }
 
 
 #page16 .shareContent p {
-	font-size: .8rem;
+	font-size: .6rem;
 	line-height: 1.3rem;
 	color: #7C5E1C;
 	text-shadow: 0rem 0rem 0.3rem #FCF7E2;
-	font-weight: bold;
+	/*font-weight: bold;*/
 }
 
 #page16 .share {
@@ -1061,9 +1079,12 @@ input{
 }
 #page17 .shareContent .pla{
 	width: 7%;
-	position: absolute;
-	left: 23%;
-	top: -26%;
+	/*height: 1%;*/
+	margin-top: 2%;
+	display:inline-block;
+}
+#page17 .shareContent .pla img{
+	margin-left: 30%;
 }
 
 
@@ -1100,14 +1121,14 @@ input{
 #page17 .shareContent {
 	position: absolute;
 	width: 100%;
-	top: 44%;
+	top: 39%;
 	text-align: center;
 }
 
 #page17 .shareContent p {
-	font-size: .8rem;
+	font-size: .6rem;
 	line-height: 1.2rem;
-	font-weight: bold;
+	/*font-weight: bold;*/
 	color: #7C5E1C;
 	text-shadow: 0rem 0rem 0.3rem #FCF7E2;
 }
