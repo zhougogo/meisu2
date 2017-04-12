@@ -116,6 +116,7 @@
 	<script src="js/video.js"></script>
 	<script src="js/zepto.min.js" type="text/javascript" charset="utf-8"></script>
 	<script src="js/touch.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/iscroll.js" type="text/javascript" charset="utf-8"></script>
 	<script src="js/swiper.min.js"></script>
 	<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
 	<script type="text/javascript">
@@ -124,6 +125,16 @@
 			paginationClickable: true,
 			direction: 'vertical'
 		});
+		
+		var myScroll;
+
+		function loaded () {
+			
+			myScroll = new IScroll('.pageone .showContent', { mouseWheel: true, scrollY: true, scrollbars: true,freeScroll: true,click: true, tap: true });
+			
+		}
+		
+		document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
 	</script>
 
 </html>

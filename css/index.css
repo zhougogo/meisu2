@@ -96,6 +96,7 @@ input {
 	height: 110%;
 	overflow: hidden;
 	overflow-y: auto;
+	-webkit-overflow-scrolling: touch;
 	
 }
 
