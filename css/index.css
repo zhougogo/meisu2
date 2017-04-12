@@ -1240,3 +1240,28 @@ input {
 	z-index: 10;
 	display: none;
 }
+#page1 .showSec{
+	height: 40px;
+	overflow: hidden;
+}
+#page1 select{
+	width: 100%;
+	height: 20%;
+	-webkit-appearance: listbox;
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	background: #F3EDDE;
+	outline: none;
+	border: none;
+	color: #BDA145;
+	border-radius: 3px;
+	text-decoration: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+#page1 select option{
+	border: none;
+	height: 30px;
+	line-height: 30px;
+	border-bottom: 10rem solid black;
+}

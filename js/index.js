@@ -38,10 +38,10 @@ $('.pageone .showSelect').on('tap', function() {
 })
 
 //下拉框点击，整个隐藏
-$('.pageone .showContent p').on('tap', function() {
-	
-	$('.pageone .showContent').css('display', 'none');
-})
+//$('.pageone .showContent p').on('tap', function() {
+//	
+//	$('.pageone .showContent').css('display', 'none');
+//})
 //第一页的模态框
 
 $('.submitBtm').tap(function() {
