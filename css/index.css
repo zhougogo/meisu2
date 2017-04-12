@@ -89,6 +89,9 @@ input{
 	display: none;
 	border-radius: 0.3rem;
 	position: absolute;
+	height: 110%;
+	overflow: scroll;
+	
 }
 
 .pageone .pageoneSelect .selectBg {
@@ -96,10 +99,14 @@ input{
 }
 
 .pageone .showSelect p {
+	width: 100%;
 	text-indent: 6%;
 	line-height: 1.8rem;
 	color: #A48A34;
 	font-size: .8rem;
+	overflow: hidden;
+	-ms-text-overflow: ellipsis;
+	text-overflow: ellipsis;
 }
 
 .pageone .showSelect {
@@ -110,10 +117,14 @@ input{
 
 .pageone .pageoneSelect .showContent p {
 	text-indent: 5%;
+	width: 100%;
 	color: #BDA145;
 	line-height: 1.8rem;
 	border-bottom: .1rem solid #E7DDBD;
 	font-size: .7rem;
+	overflow: hidden;
+	-ms-text-overflow: ellipsis;
+	text-overflow: ellipsis;
 }
 
 .pageone .showContent2 {
@@ -185,10 +196,10 @@ input{
 	/*display: none;*/
 }
 .myPopupDialog1{
-	/*display: none;*/
+	display: none;
 }
 .myPopupDialog2{
-	/*display: none;*/
+	display: none;
 }
 .myPopupDialog .popupBg {
 	width: 64%;
@@ -387,6 +398,7 @@ input{
 #page2 .pagetwoContent3 .gamePic {
 	width: 100%;
 	height: 100%;
+	/*video-height:100%;*/
 	border-radius: 5%;
 	position: absolute;
 	display: block;

@@ -1,7 +1,11 @@
 
 var video = document.getElementById('video');
 
+var gameVi = document.getElementsByClassName('gameVideo')[0];
+
 var gamePic = document.getElementsByClassName('gamePic')[0];
+
+
 
 gamePic.addEventListener('touchstart',function(){
 	gamePic.style.display = 'none';
@@ -9,11 +13,23 @@ gamePic.addEventListener('touchstart',function(){
 	video.play();
 	
 	video.style.height = 'auto';
+//	video.style.videoHeight = '100%';
+	
+//	video.style.videoWidth = '100%';
+	
+//	var w = video.videoWidth;
+//	var h = video.videoHeight;
+//	
+//	var ra = w/h;
+//	
+
+	
+
 })
 
-if(video.pause()){
-	gamePic.style.display = 'block';
-}
+//if(video.pause()){
+//	gamePic.style.display = 'block';
+//}
 
  
 
