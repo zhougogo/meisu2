@@ -18,13 +18,16 @@ body {
 	height: 100%;
 	position: relative;
 }
+
 .swiper-container {
-    width: 100%;
-    height: 100%;
+	width: 100%;
+	height: 100%;
 }
-input{
+
+input {
 	display: block;
 }
+
 .page {
 	width: 100%;
 	height: 100%;
@@ -37,7 +40,8 @@ input{
 	height: 100%;
 }
 
-.page .content .content-bg ,#page0 .content .content-bg{
+.page .content .content-bg,
+#page0 .content .content-bg {
 	width: 100%;
 	height: 100%;
 	position: absolute;
@@ -47,30 +51,30 @@ input{
 	bottom: 0;
 }
 
-
 #page2 .pagetwoContent3 {
 	position: absolute;
 	top: 0;
 	/*display: none;*/
 }
 
+
 /*.......第一页....*/
-#page1{
+
+#page1 {
 	position: absolute;
 	top: 100%;
-
 	width: 100%;
 	height: 100%;
 	/*background: url(../images/choose/);*/
 }
-#page1 .content{
+
+#page1 .content {
 	position: absolute;
 	width: 100%;
 	height: 100%;
 	top: 0%;
 	left: 0%;
 	margin: auto;
-
 }
 
 .pageone .pageoneSelect {
@@ -90,8 +94,38 @@ input{
 	border-radius: 0.3rem;
 	position: absolute;
 	height: 110%;
-	overflow: scroll;
+	overflow: hidden;
+	overflow-y: auto;
 	
+}
+
+.pageone .pageoneSelect .showContent::-webkit-scrollbar-track-piece {
+	background-color: rgba(0, 0, 0, 0);
+	border-left: 1px solid rgba(0, 0, 0, 0);
+}
+
+.pageone .pageoneSelect .showContent::-webkit-scrollbar {
+	width: 5px;
+	height: 13px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.pageone .pageoneSelect .showContent::-webkit-scrollbar-thumb {
+	background-color: rgba(0, 0, 0, 0.5);
+	background-clip: padding-box;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	min-height: 28px;
+}
+
+.pageone .pageoneSelect .showContent::-webkit-scrollbar-thumb:hover {
+	background-color: rgba(0, 0, 0, 0.5);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
 }
 
 .pageone .pageoneSelect .selectBg {
@@ -133,15 +167,17 @@ input{
 	/*position: absolute;
 	top: 220%;*/
 }
+
+
 /*.pageone .showContent2{
 	width: 100%;
 	height: 100%;
 	position: absolute;
 	top: 0%;
 }*/
+
 .pageone .showContent2 input {
 	width: 100%;
-
 	border: none;
 	outline: none;
 	line-height: 1.8rem;
@@ -151,25 +187,29 @@ input{
 	background: url(../images/choose/changci2.png) no-repeat center center;
 	-webkit-background-size: 100% 100%;
 	background-size: 100% 100%;
-	
 }
 
-.pageone .showContent2 input::-webkit-input-placeholder { /* WebKit browsers */  
-    color:    #BDA145;  
-}  
-.pageone .showContent2 input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */  
-   color:    #BDA145;  
-   opacity:  1;  
-}  
-.pageone .showContent2 input::-moz-placeholder { /* Mozilla Firefox 19+ */  
-   color:    #BDA145;  
-   opacity:  1;  
-}  
-.pageone .showContent2 input:-ms-input-placeholder { /* Internet Explorer 10+ */  
-   color:    #BDA145;  
-} 
+.pageone .showContent2 input::-webkit-input-placeholder {
+	/* WebKit browsers */
+	color: #BDA145;
+}
 
+.pageone .showContent2 input:-moz-placeholder {
+	/* Mozilla Firefox 4 to 18 */
+	color: #BDA145;
+	opacity: 1;
+}
 
+.pageone .showContent2 input::-moz-placeholder {
+	/* Mozilla Firefox 19+ */
+	color: #BDA145;
+	opacity: 1;
+}
+
+.pageone .showContent2 input:-ms-input-placeholder {
+	/* Internet Explorer 10+ */
+	color: #BDA145;
+}
 
 .submitBtm {
 	position: absolute;
@@ -195,12 +235,15 @@ input{
 	background-color: rgba(0, 0, 0, 0.5);
 	/*display: none;*/
 }
-.myPopupDialog1{
+
+.myPopupDialog1 {
 	display: none;
 }
-.myPopupDialog2{
+
+.myPopupDialog2 {
 	display: none;
 }
+
 .myPopupDialog .popupBg {
 	width: 64%;
 	height: 52%;
@@ -221,14 +264,17 @@ input{
 	box-sizing: border-box;
 	text-align: center;
 }
-.myPopupDialog .popupBg2{
+
+.myPopupDialog .popupBg2 {
 	padding: 20% 10%;
 }
-.myPopupDialog .popupBg2 p{
+
+.myPopupDialog .popupBg2 p {
 	text-align: center;
 	/*margin-left: 0rem;*/
 }
-.myPopupDialog .popupBg2 p{
+
+.myPopupDialog .popupBg2 p {
 	line-height: 1.6rem;
 }
 
@@ -241,12 +287,12 @@ input{
 	line-height: 1.6rem;
 	margin-left: .5rem;
 }
-.myPopupDialog .popupBg2 p{
-	
-}
-.myPopupDialog .popupBg2 .resetBg{
+
+.myPopupDialog .popupBg2 p {}
+
+.myPopupDialog .popupBg2 .resetBg {
 	width: 80%;
-	margin:24% auto;
+	margin: 24% auto;
 	height: 30%;
 }
 
@@ -269,7 +315,8 @@ input{
 	width: 100%;
 	/*margin-top: .5rem;*/
 }
-.myPopupDialog .popupBg form p{
+
+.myPopupDialog .popupBg form p {
 	width: 100%;
 	text-align: center;
 	margin-top: 10%;
@@ -279,16 +326,16 @@ input{
 
 .myPopupDialog .popupBg form button {
 	width: 66%;
-	height:20%;
+	height: 20%;
 	/*height: 1.6rem;*/
 	/*line-height: 1.6rem;*/
-	background-color:transparent;
+	background-color: transparent;
 	border: none;
 	outline: none;
 	margin-right: 2rem;
 	position: absolute;
 	right: 0;
-	left:0;
+	left: 0;
 	margin: auto;
 	bottom: 6%;
 }
@@ -482,8 +529,6 @@ input{
 	color: #926F21;
 	line-height: 1.6rem;
 }
-
-
 
 
 /*....第三页...*/
@@ -722,7 +767,6 @@ input{
 	width: 100%;
 	position: absolute;
 	z-index: 10;
-	
 }
 
 #page6 .photo .photo-pic {
@@ -739,13 +783,15 @@ input{
 	top: 9%;
 }
 
+
 /*#page6 .photo .photo-pic img {
 	-webkit-border-radius: inherit;
 	-moz-border-radius: inherit;
 	border-radius: inherit;
 
 }*/
-#page6 .an{
+
+#page6 .an {
 	position: absolute;
 	z-index: 10;
 	top: 79%;
@@ -1023,7 +1069,8 @@ input{
 	position: absolute;
 	/*z-index: -1;*/
 }
-#page16 .photo .photo-pic img{
+
+#page16 .photo .photo-pic img {
 	-webkit-border-radius: inherit;
 	-moz-border-radius: inherit;
 	border-radius: inherit;
@@ -1042,21 +1089,21 @@ input{
 	top: 40%;
 	text-align: center;
 }
-#page16 .shareContent .pla{
+
+#page16 .shareContent .pla {
 	width: 7%;
 	/*height: 1%;*/
 	margin-top: 2%;
-	display:inline-block;
+	display: inline-block;
 	/*position: absolute;*/
-	
 	/*left: 15%;
 	top: -26%;*/
 }
-#page16 .shareContent .pla img{
+
+#page16 .shareContent .pla img {
 	margin-left: 30%;
 	/*padding-top: 20%;*/
 }
-
 
 #page16 .shareContent p {
 	font-size: .6rem;
@@ -1085,17 +1132,18 @@ input{
 	width: 30%;
 	position: absolute;
 	left: 64%;
-
 	margin-bottom: 5%;
 	transform: scale(1.2);
 }
-#page17 .shareContent .pla{
+
+#page17 .shareContent .pla {
 	width: 7%;
 	/*height: 1%;*/
 	margin-top: 2%;
-	display:inline-block;
+	display: inline-block;
 }
-#page17 .shareContent .pla img{
+
+#page17 .shareContent .pla img {
 	margin-left: 30%;
 }
 
@@ -1125,7 +1173,6 @@ input{
 	width: 30%;
 	position: absolute;
 	left: 64%;
-
 	margin-bottom: 5%;
 	transform: scale(1.2);
 }
