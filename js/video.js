@@ -11,6 +11,10 @@ gamePic.addEventListener('touchstart',function(){
 	video.style.height = 'auto';
 })
 
+if(video.pause()){
+	gamePic.style.display = 'block';
+}
+
  
 
 
