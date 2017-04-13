@@ -14,7 +14,7 @@
 
 	</head>
 
-	<body>
+	<body onload="loaded()">
 
 		<div class="swiper-container">
 			<div class="swiper-wrapper">
@@ -27,7 +27,7 @@
 							<div class="gamePic">
 								<img src="images/proter.png" />
 							</div>
-							<video loop="loop" id="video" preload>
+							<video loop="loop" id="video" x-webkit-airplay="true"  playsinline="true" x5-video-player-type="h5" x5-video-player-fullscreen="true" preload>
 								<source src="demo.mp4" type="video/mp4" webkit-playsinline='true'>
 							</video>
 							<!-- <canvas id="canvas"></canvas> -->
@@ -59,7 +59,7 @@
 							<img src="images/choose/choosebg.png" />
 						</div>
 						<div class="pageoneSelect">
-							<div class="showSec">
+							<!--<div class="showSec">
 								<select name="" id="">
 									<option value="">点击此处选择本次活动场次</option>
 									<option value="">上海龍口点击此处</option>
@@ -91,12 +91,12 @@
 									<option value="">上海龍口点击此处</option>
 									<option value="">上海龍口点击此处</option>
 								</select>
-							</div>
+							</div>-->
 
-							<!--<div class="showSelect">
+							<div class="showSelect">
 								<p>点击此处选择本次活动场次上海</p>
 							</div>
-							<div class="showContent" onload="loaded()">
+							<div class="showContent">
 								<p>上海龍口点击此处</p>
 								<p>上海龍口点击此处</p>
 								<p>上海龍口点击此处</p>
@@ -108,7 +108,7 @@
 								<p>上海龍口点击此处</p>
 								<p>上海龍口点击此处</p>
 								<p>上海龍口点击此处</p>
-							</div>-->
+							</div>
 							<div class="showContent2">
 								<p><input type="number" placeholder="请输入LED屏显示的四位数字验证码" /></p>
 							</div>

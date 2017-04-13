@@ -93,8 +93,7 @@ input {
 	display: none;
 	border-radius: 0.3rem;
 	position: absolute;
-	height: 110%;
-	overflow: hidden;
+	height: 145px;
 	overflow-y: auto;
 	-webkit-overflow-scrolling: touch;
 	
@@ -103,6 +102,7 @@ input {
 .pageone .pageoneSelect .showContent::-webkit-scrollbar-track-piece {
 	background-color: rgba(0, 0, 0, 0);
 	border-left: 1px solid rgba(0, 0, 0, 0);
+	-webkit-overflow-scrolling: touch;
 }
 
 .pageone .pageoneSelect .showContent::-webkit-scrollbar {
@@ -111,6 +111,7 @@ input {
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
+	-webkit-overflow-scrolling: touch;
 }
 
 .pageone .pageoneSelect .showContent::-webkit-scrollbar-thumb {
@@ -120,6 +121,7 @@ input {
 	-moz-border-radius: 5px;
 	border-radius: 5px;
 	min-height: 28px;
+	-webkit-overflow-scrolling: touch;
 }
 
 .pageone .pageoneSelect .showContent::-webkit-scrollbar-thumb:hover {
@@ -127,6 +129,7 @@ input {
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
+	-webkit-overflow-scrolling: touch;
 }
 
 .pageone .pageoneSelect .selectBg {
@@ -461,6 +464,8 @@ input {
 
 #page2 .pagetwoContent3 .gameVideo video {
 	border: 1.2rem solid #EFE3B1;
+	-o-object-fit: fit;
+	object-fit: fit;
 	-webkit-border-image: url("../images/rule/rulekuang.png") 27;
 	-moz-border-image: url("../images/rule/rulekuang.png") 27;
 	-ms-border-image: url("../images/rule/rulekuang.png") 27;
@@ -1240,7 +1245,7 @@ input {
 	z-index: 10;
 	display: none;
 }
-#page1 .showSec{
+/*#page1 .showSec{
 	height: 40px;
 	overflow: hidden;
 }
@@ -1264,4 +1269,4 @@ input {
 	height: 30px;
 	line-height: 30px;
 	border-bottom: 10rem solid black;
-}
+}*/
