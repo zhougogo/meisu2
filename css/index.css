@@ -1245,7 +1245,11 @@ input {
 	z-index: 10;
 	display: none;
 }
-/*#page1 .showSec{
+
+
+
+
+#page1 .showSec{
 	height: 40px;
 	overflow: hidden;
 }
@@ -1269,4 +1273,4 @@ input {
 	height: 30px;
 	line-height: 30px;
 	border-bottom: 10rem solid black;
-}*/
+}
