@@ -13,23 +13,14 @@ gamePic.addEventListener('touchstart',function(){
 	video.play();
 	
 	video.style.height = 'auto';
-//	video.style.videoHeight = '100%';
-	
-//	video.style.videoWidth = '100%';
-	
-//	var w = video.videoWidth;
-//	var h = video.videoHeight;
-//	
-//	var ra = w/h;
-//	
-
-	
 
 })
 
-//if(video.pause()){
-//	gamePic.style.display = 'block';
-//}
+if(video.pause()){
+	
+	gamePic.style.display = 'block';
+	
+}
 
  
 
