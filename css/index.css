@@ -456,7 +456,7 @@ input {
 	height: 100%;
 	/*position: absolute;*/
 	z-index: 5;
-	border: 1.2rem solid transparent;
+	border: 1.2rem solid #EFE3B1;
 	-webkit-border-image: url("../images/rule/rulekuang.png") 27;
 	-moz-border-image: url("../images/rule/rulekuang.png") 27;
 	-ms-border-image: url("../images/rule/rulekuang.png") 27;
