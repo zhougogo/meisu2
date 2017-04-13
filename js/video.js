@@ -5,12 +5,17 @@ var gameVi = document.getElementsByClassName('gameVideo')[0];
 
 var gamePic = document.getElementsByClassName('gamePic')[0];
 
+var zhezhao = document.getElementsByClassName('zhezhao')[0];
+
 
 
 gamePic.addEventListener('touchstart',function(){
+	
 	video.style.display = 'block';
 	
 	gamePic.style.display = 'none';
+	
+	zhezhao.style.display = 'block';
 	
 	video.play();
 	
@@ -18,15 +23,15 @@ gamePic.addEventListener('touchstart',function(){
 
 })
 
-if(video.pause()){
-	
-	console.log(123);
-	
-	gamePic.style.display = 'block';
-	
-	video.style.display = 'block';
-	
-}
+//if(video.pause()){
+//	
+//	console.log(123);
+//	
+//	gamePic.style.display = 'block';
+//	
+//	video.style.display = 'block';
+//	
+//}
 
  
 
