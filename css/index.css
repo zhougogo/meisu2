@@ -456,13 +456,7 @@ input {
 	height: 100%;
 	/*position: absolute;*/
 	z-index: 5;
-	border: 1.2rem solid #EFE3B1;
-	-webkit-border-image: url("../images/rule/rulekuang.png") 27;
-	-moz-border-image: url("../images/rule/rulekuang.png") 27;
-	-ms-border-image: url("../images/rule/rulekuang.png") 27;
-	-o-border-image: url("../images/rule/rulekuang.png") 27;
-	border-image: url("../images/rule/rulekuang.png") 27;
-	display: none;
+	/*display: none;*/
 }
 
 #page2 .pagetwoContent3 .gameVideo video,
@@ -472,25 +466,25 @@ input {
 	/*video-height:100%;*/
 	border-radius: 5%;
 	position: absolute;
-	display: block;
+	/*display: block;*/
 	top: 0;
 	right: 0;
 	bottom: 0;
 	left: 0;
 	margin: auto;
 	font-size: 0;
+	border: 1.2rem solid;
+	-webkit-border-image: url("../images/rule/rulekuang.png") 27;
+	-moz-border-image: url("../images/rule/rulekuang.png") 27;
+	-ms-border-image: url("../images/rule/rulekuang.png") 27;
+	-o-border-image: url("../images/rule/rulekuang.png") 27;
+	border-image: url("../images/rule/rulekuang.png") 27;
 	/*display: none;*/
 	/*background-color: white;*/
 }
 
 #page2 .pagetwoContent3 .gameVideo video {
 	display: none;
-	border: 1.2rem solid #EFE3B1;
-	-webkit-border-image: url("../images/rule/rulekuang.png") 27;
-	-moz-border-image: url("../images/rule/rulekuang.png") 27;
-	-ms-border-image: url("../images/rule/rulekuang.png") 27;
-	-o-border-image: url("../images/rule/rulekuang.png") 27;
-	border-image: url("../images/rule/rulekuang.png") 27;
 	-o-object-fit: fit;
 	object-fit: fit;
 
