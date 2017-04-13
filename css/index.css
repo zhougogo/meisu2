@@ -430,10 +430,11 @@ input {
 #page2 .pagetwoContent3 .gameVideo {
 	width: 70%;
 	height: 34%;
-	position: absolute;
+	position: relative;
 	z-index: 10;
 	left: 10%;
 	top: 44%;
+	
 }
 
 #page2 .pagetwoContent3 .gamePic {
