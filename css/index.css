@@ -1284,7 +1284,11 @@ input {
 	color: #BDA145;
 	border-radius: 3px;
 	text-decoration: none;
-	-webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	background: url(../images/choose/changci.png) no-repeat center center;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	
 }
 #page1 select option{
 	border: none;

@@ -5,19 +5,17 @@
  	$('#page1 .content').height(conHeight);
  
 //切换下拉框场地
-$('.pageone .showContent p').on('tap', function() {
+$('select').on('change',function(){
 
-	$(this).addClass('selectBg').siblings().removeClass('selectBg');
-
-	var textPlace = $(this).html();
+	var index = this.selectedIndex;
 	
-	$(".pageone .myPopupDialog .place input").val(textPlace);
+	if(index > 0){
+		
+		var content = $('option').eq(index).html();
+	}
 	
-	$('.pageone .showSelect p').html(textPlace);
-
-	$('#page16 .shareContent span').html(textPlace);
-
-	$('#page17 .shareContent span').html(textPlace);
+	$('.myPopupDialog1 .place input').val(content);
+	
 	
 	
 })
