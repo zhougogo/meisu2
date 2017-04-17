@@ -46,14 +46,14 @@ $('.pageone .showContent p').on('tap', function() {
 
 $('.submitBtm').tap(function() {
 	
-	if($('.pageone .showContent p').hasClass('selectBg')) {
+//	if($('.pageone .showContent p').hasClass('selectBg')) {
 		
 		$('.myPopupDialog1').show();
 		
 		var idCode = $('#page1 .showContent2 input').val();
 	
 	$('#page1 .myPopupDialog1 .placeNum input').val(idCode);
-	}
+//	}
 	
 	var idCode = $('#page1 .showContent2 input').val();
 	

@@ -1267,16 +1267,17 @@ input {
 
 
 #page1 .showSec{
-	height: 40px;
+	height: 30px;
 	overflow: hidden;
 }
 #page1 select{
 	width: 100%;
 	height: 20%;
-	-webkit-appearance: listbox;
+	/*-webkit-appearance: listbox;*/
 	display: inline-block;
 	height: 30px;
 	line-height: 30px;
+	text-indent: 3%;
 	background: #F3EDDE;
 	outline: none;
 	border: none;
