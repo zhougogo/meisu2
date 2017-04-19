@@ -156,6 +156,7 @@ function queueNum() {
 countDown();
 
 function countDown() {
+	var arr = ['']
 	var countTime = 30;
 
 	var countStr = countTime + '';
@@ -163,7 +164,7 @@ function countDown() {
 
 	for(var i = 0; i < countStr.length; i++) {
 
-		$('#page3 .countDown .countImg').eq(i).css('background-image','url("images/wait1/'+countStr[i]+'.png")');
+		$('#page3 .countDown .countImg img').eq(i).find('img').eq(countStr[i]).css('display','block').siblings().css('display','none');
 
 	}
 
@@ -188,7 +189,7 @@ function countDown() {
 
 		for(var i = 0; i < l; i++) {
 			
-			$('#page3 .countDown .countImg').eq(i).css('background-image','url("images/wait1/'+countStr[i]+'.png")');
+			$('#page3 .countDown .countImg').eq(i).find('img').eq(countStr[i]).css('display','block').siblings().css('display','none');
 
 //			$('#page3 .countDown .countImg').eq(i).css('background','url(../images/wait1/'+countStr[i]+'.png) no-repeat center center');
 		}

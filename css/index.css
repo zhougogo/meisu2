@@ -575,20 +575,26 @@ input {
 
 #page3 .countDown .countDown1 {
 	left: 22%;
-	background-image: url(../images/wait1/3.png);
+	/*background-image: url(../images/wait1/3.png);
 	background-repeat: no-repeat;
 	background-position: center center;
 	-webkit-background-size: 100% 100%;
-	background-size: 100% 100%;
+	background-size: 100% 100%;*/
 }
-
+#page3 .countDown .countDown1 img,#page3 .countDown .countDown2 img{
+	display: none;
+	position: absolute;
+}
+#page3 .countDown .countDown1 img:nth-child(3),#page3 .countDown .countDown2 img:nth-child(1){
+	display: block;
+}
 #page3 .countDown .countDown2 {
 	left: 42%;
-	background-image: url(../images/wait1/0.png);
+	/*background-image: url(../images/wait1/0.png);
 	background-repeat: no-repeat;
 	background-position: center center;
 	-webkit-background-size: 100% 100%;
-	background-size: 100% 100%;
+	background-size: 100% 100%;*/
 }
 
 #page3 .countDown .countDownPic {
