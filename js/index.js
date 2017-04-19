@@ -159,10 +159,11 @@ function countDown() {
 	var countTime = 30;
 
 	var countStr = countTime + '';
+	console.log($('#page3 .countDown .countImg').css('background-image'));
 
 	for(var i = 0; i < countStr.length; i++) {
 
-		$('#page3 .countDown .countImg').eq(i).attr('src', 'images/wait1/' + countStr[i] + '.png');
+		$('#page3 .countDown .countImg').eq(i).css('background-image','url("http://127.0.0.1:8020/meisu2/images/wait1/'+countStr[i]+'.png")');
 
 	}
 
@@ -186,8 +187,10 @@ function countDown() {
 		var l = $('#page3 .countDown .countImg').length;
 
 		for(var i = 0; i < l; i++) {
+			
+			$('#page3 .countDown .countImg').eq(i).css('background-image','url("http://127.0.0.1:8020/meisu2/images/wait1/'+countStr[i]+'.png")');
 
-			$('#page3 .countDown .countImg').eq(i).attr('src', 'images/wait1/' + countStr[i] + '.png')
+//			$('#page3 .countDown .countImg').eq(i).css('background','url(../images/wait1/'+countStr[i]+'.png) no-repeat center center');
 		}
 
 	}, 1000);
