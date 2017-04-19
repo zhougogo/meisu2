@@ -159,7 +159,7 @@ function countDown() {
 	var countTime = 30;
 
 	var countStr = countTime + '';
-	console.log($('#page3 .countDown .countImg').css('background-image'));
+//	console.log($('#page3 .countDown .countImg').css('background-image'));
 
 	for(var i = 0; i < countStr.length; i++) {
 
